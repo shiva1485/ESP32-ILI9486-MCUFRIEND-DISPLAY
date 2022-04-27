@@ -1,0 +1,25 @@
+Connections of ESP32 to 3.5 inch ili9486 MCUFRIEND tft display
+
+
+LCD_RST-------- 32 PIN
+LCD_CS-------- 33 PIN
+LCD_RS-------- 15 PIN
+LCD_WR-------- 4 PIN
+LCD_RD-------- 2 PIN
+
+LCD_D0-------- 12 PIN
+LCD_D1-------- 13 PIN
+
+LCD_D2-------- 26 PIN
+LCD_D3-------- 25 PIN
+LCD_D4-------- TX2(17) PIN
+LCD_D5-------- RX2(16) PIN
+LCD_D6-------- 27 PIN
+LCD_D7-------- 14 PIN
+
+HERE TOUCH PINS ARE:
+
+LCD_D0 (X+)
+LCD_D1 (Y-)      //No need to connect these pins as they are connected in the above.
+LCD_CS (Y+)      //This is just to note that for using the touch pins in the code i.e, you are using the ESP32 LIBRARY
+LCD_RS (X-)
